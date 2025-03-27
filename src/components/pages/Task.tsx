@@ -66,7 +66,7 @@ const Task = () => {
             {pages.map((page) => (
               <div
                 key={page.id}
-                className="flex justify-between items-center"
+                className="flex justify-between items-center cursor-pointer"
                 onClick={() => handleSelectPage(page.id)}
               >
                 <Text
