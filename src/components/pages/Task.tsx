@@ -64,7 +64,11 @@ const Task = () => {
           {/* Page List */}
           <div className="space-y-5">
             {pages.map((page) => (
-              <div key={page.id} className="flex justify-between items-center">
+              <div
+                key={page.id}
+                className="flex justify-between items-center"
+                onClick={() => handleSelectPage(page.id)}
+              >
                 <Text
                   containerTag="span"
                   className="text-base font-light text-black"
