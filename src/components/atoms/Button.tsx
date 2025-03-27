@@ -14,7 +14,7 @@ export const Button: React.FC<ButtonProps> = ({
   ...props
 }) => {
   const baseStyles =
-    "py-3 rounded-lg text-center font-medium transition-opacity hover:opacity-80";
+    "py-3 rounded-lg text-center font-light transition-opacity hover:opacity-80";
   const variantStyles = {
     primary: "bg-primary text-black",
     secondary: "bg-secondary text-white",
